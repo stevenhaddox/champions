@@ -306,6 +306,14 @@ export const EFFECT_STARS_AMOUNT = {
     [ EFFECT.SPIDER_MONKEY ]: [ 10, 12, 15 ],
     [ EFFECT.FURRY_FRENEMIES ]: [ 10, 12, 15 ],
     [ EFFECT.NO_EVIL ]: [ 10, 12, 15 ],
+    [ EFFECT.ON_GUARD_FOR_THEE ]: [ 10, 12, 15 ],
+    [ EFFECT.ALPHA_FLIGHT ]: [ 10, 12, 15 ],
+    [ EFFECT.EXCAVATORS ]: [ 10, 12, 15 ],
+    [ EFFECT.JUST_HAIR_AND_THINGS ]: [ 10, 12, 15 ],
+    [ EFFECT.GAMMA_RAY_RAY ]: [ 10, 12, 15 ],
+    [ EFFECT.FURRY_BUDS ]: [ 10, 12, 15 ],
+    [ EFFECT.GIANT_CHALLENGERS ]: [ 10, 12, 15 ],
+    [ EFFECT.COMMON_HISTORY ]: [ 10, 12, 15 ],
 };
 export const EFFECT_STARS_INDEX = { 1: 0, 2: 0, 3: 1, 4: 2, 5: 2 };
 
@@ -616,6 +624,14 @@ const effects = [
     { uid: EFFECT.SPIDER_MONKEY },
     { uid: EFFECT.FURRY_FRENEMIES },
     { uid: EFFECT.NO_EVIL },
+    { uid: EFFECT.ON_GUARD_FOR_THEE },
+    { uid: EFFECT.ALPHA_FLIGHT },
+    { uid: EFFECT.EXCAVATORS },
+    { uid: EFFECT.JUST_HAIR_AND_THINGS },
+    { uid: EFFECT.GAMMA_RAY_RAY },
+    { uid: EFFECT.FURRY_BUDS },
+    { uid: EFFECT.GIANT_CHALLENGERS },
+    { uid: EFFECT.COMMON_HISTORY },
 
 ].map(({ uid }) => new Effect({
     uid,
@@ -930,6 +946,14 @@ const effectIcons = {
     [ EFFECT.SPIDER_MONKEY ]: 'effect-bane-of-hells-kitchen',
     [ EFFECT.FURRY_FRENEMIES ]: 'effect-armor-break',
     [ EFFECT.NO_EVIL ]: 'effect-critical-damage',
+    [ EFFECT.ON_GUARD_FOR_THEE ]: 'effect-perfect-block',
+    [ EFFECT.ALPHA_FLIGHT ]: 'effect-electric-supercharge',
+    [ EFFECT.EXCAVATORS ]: 'effect-unstoppable',
+    [ EFFECT.JUST_HAIR_AND_THINGS ]: 'effect-just-hair-and-things',
+    [ EFFECT.GAMMA_RAY_RAY ]: 'effect-gamma-ray-ray',
+    [ EFFECT.FURRY_BUDS ]: 'effect-time',
+    [ EFFECT.GIANT_CHALLENGERS ]: 'effect-giant-challengers',
+    [ EFFECT.COMMON_HISTORY ]: 'effect-common-history',
 };
 
 function effectIcon(uid) {
