@@ -1,0 +1,37 @@
+{
+    "description": "Dragon Man was a lifeless android constructed by Professor Gregson Gilbert, then brought to life by Diablo through a combination of Science and Alchemy. Dragon Man spent much of his existence being manipulated into combat by Heroes and Villains alike, until Valeria Richards upgraded his Programming. Now with both super-intellect and immense strength, Dragon Man acts as a guardian for the children of the Future Foundation.",
+    "gameplay": {
+        "description": "Passive:\nDragon Man’s thick Armor and Advanced Robotics grants full immunity to Bleed, Poison, and Armor Shattered.\nIf under the effects of an Armor Break, Dragon Man releases currents of mystical energy, dealing 117.3 Degeneration Damage every 0.5 seconds. Damage is increased by 100% against Cosmic Champions.\nOffensive Combat Power Rate is reduced by 35%.\n\nPower Charge – Buff:\nAt the start of a fight, gain Power Charge, generating 12% of a bar of Power every second. Power Charge is removed when Stunned.\nIf 0 Power Charges are active, create one after 12 seconds. When Defending, this duration is reduced by 4 seconds.\nWhen fighting Science Champions, upon receiving a Non-Damaging Debuff, pause cooldown Duration for 0.35 seconds.\n\nCornered – Passive:\nWhile the Opponent’s back is against the wall they gain Cornered. Cornered is unaffected by Ability Accuracy modifications.\nEach hit deals 821.1 physical damage. This damage is increased by 50% for each Ineptitude or Unique Buff on the Opponent. Up to 150%\nOpponents Defensive Combat Power Rate is reduced by 70% while above 2 bars of Power.\n\nOn Opponent Knockdown:\nGain an Unblockable Buff for 3 seconds. Duration is paused during Special Attacks."
+    },
+    "attack": {
+        "heavy": "On Hit, remove any Incinerates on the Opponent, each dealing a burst of 1173 energy damage. If 6 or more Incinerates are removed, this damage is increased by 50%."
+    },
+    "specials": {
+        "1": {
+            "name": "Blitzkrieg",
+            "description": "The final hit inflicts a non-stacking Slow for 8 seconds, preventing the effects of Unstoppable and passively lowering Evade and Unstoppable Ability Accuracy by -100%. Opponents with Natural Class Advantage cannot be slowed.\nThe first hit that contacts the Opponent consumes 1 Power Charge to inflict an Ineptitude Debuff reducing the potency of new Fury, Armor Up, Precision, and Cruelty Buffs by 75% for 30 seconds.",
+            "note": "Ineptitude reduces the Potency of any Buffs activated after Ineptitude is in place. If fighting a Buff heavy Opponent, get these Ineptitudes on them as early as possible. Ineptitudes can invert the potency of Buffs, allowing you to reverse the effects of the Opponents Buffs."
+        },
+        "2": {
+            "name": "Scorched Earth",
+            "description": "All 3 hits of Dragon Man’s fire breath inflict Incinerate, dealing 1173 energy damage over 25 seconds. Incinerate also reduces the Opponent’s Block Proficiency by 50% and prevents the activation of Perfect Block.\nConsume 1 Power Charge to generate a Fury Buff, increasing Attack Rating by 1524.9 for 30 seconds.",
+            "note": "This Special Attack ends with the Opponent Cornered. Use the unstoppable to charge into combat and keep Dragon Man’s forward momentum up."
+        },
+        "3": {
+            "name": "Danger Close",
+            "description": "Consume all stacks of Power Charge. Each contributing 4 seconds to an Unstoppable Buff. While active, this Unstoppable instantly regenerates 85% of hit damage received from all attacks other than Special 3’s.\nAfter this Special Attack ends, generate 3 stacks of Power Charge. Additional stacks of Power Charge do not generate additional Power.",
+            "note": "This Special Attack ends with the Opponent Cornered. Use the unstoppable to charge into combat and keep Dragon Man’s forward momentum up."
+        }
+    },
+    "signature": {
+        "name": "Tactical Programming",
+        "description": "When any Non-Science Opponent has specific Buffs active, gain a unique effect. Potency is increased by 100% when fighting Cosmic Champions.\n- Regen: Reduce Opponents Regen Rate by 35%.\n- Power Gain: Reduce Opponents Ability Power Gain Rate by 35%.\n- Fury: Gain 1130.76 Armor Rating.\n- Armor Up: Gain 821.1 Attack Rating.\n- Precision: Gain 1130.76 Critical Resistance.\n- Cruelty: Gain 35% Critical Damage Resistance.",
+        "note": "Dragon Man doesn’t have any way to remove the Opponent’s Buffs, but he gains strength the more Buffs the Opponent has active. "
+    },
+    "author": {
+        "name": "Kabam",
+        "type": "spotlight",
+        "profile": "https://playcontestofchampions.com/champion-spotlight-dragon-man/"
+    },
+    "youtube": "QAWi_eGcde0"
+}

@@ -1,0 +1,34 @@
+{
+    "description": "Professor X believed in peaceful coexistence of mutants and humans, but this all changed when Moira MacTaggert revealed to him the inevitable demise of mutantkind, unless Professor X could change his ways. Under the new moniker “X”, he gave up his old dreams. No more would mutants endure the afflictions and prejudice of humankind. Under the formidable rule of X, the mutant nation of Krakoa was founded. And those who defy the nation must enter the Mindscape and face Professor X in a duel of mental strength.",
+    "gameplay": {
+        "description": "MUTATION – ALWAYS ACTIVE\nProfessor X’s first Medium Attack is the only Basic Attack that makes contact with his Opponent. All of Professor X’s attacks deal Energy Damage.\nImmune to Reversed Controls due to his mastery over Telepathy.\n\nFALTER\nWhen Professor X would be struck by a Basic Attack, he inflicts a Falter Passive, causing 100% of the Opponent’s attacks to Miss for 2 second(s). This ability has a 20 second cooldown but starts on a 10 second cooldown.\nWhen the Opponent lands a Special Attack, Falter is removed.\nAvoiding an attack while Dodging backwards during Falter’s cooldown reduces the duration by 1 second(s).\n\nPERSISTENT CEREBRO CHARGES – MAX 4 CHARGES\nStart each Quest with 1 Cerebro Charge(s).\nGain 1 Cerebro Charge(s) when Professor X wins a fight.\nCerebro Charges increase the potency of Professor X’s Synergies.\n\nCHANNELING\nProfessor X channels his telepathic abilities, gaining 10 Channeling Charge(s) per second at the end of his Special 1 and 2 Attacks and while charging his Heavy Attack.\nWhen Power Burned or Drained, lose 50 Channeling Charge(s).\nWhile at 25+ Channeling Charges against Non-Tech Champions, Professor X can not be Evaded and gains a Vigilance Passive, allowing all attacks to bypass Miss.\nWhile at 50+ Channeling Charges, using the fourth Light Attack inflicts Mind Control on the Opponent. When activating a Special Attack with 100 Channeling Charge(s), automatically inflict Mind Control.\n\nCHANNELING – COMPLETING AND CANCELLING\nComplete Channel or Cancel by Heavy Attacking: Gain +10 Channeling Charge(s).\nCancel by Blocking, Charging a Heavy Attack or using a Light, Medium or Special Attack: Gain a Prowess Buff increasing Special Attack Damage by 40% for 36 second(s).\nCancel by Dashing Backwards: Refresh the duration of all Prowess Effects on Professor X.\n\nMIND CONTROL\nMind Control lasts 0.5 second(s) for every 10 Channeling Charge(s).\nThe Opponent is Locked from gaining Power or using any of their Special Attacks.\nMind Control’s duration is paused during Professor X’s Special Attacks, except while Channeling.\nProfessor X’s Special Attacks are Unblockable and cost up to 70% less Power based on the number of Channeling Charges. Reduced to 40% against Techs."
+    },
+    "specials": {
+        "1": {
+            "name": "Psychic Grasp",
+            "description": "On activation, gain 25 Channeling Charge(s).",
+            "note": "During Mind Control, players will find that they’re able to perform several Special 1’s in quick succession with enough power."
+        },
+        "2": {
+            "name": "Psi-Blades",
+            "description": "The last three hits deal a burst of 2112 Energy Damage. This ability scales with Special Attack Damage.",
+            "note": "This is Professor X’s largest damage spike! Keep in mind that Professor X’s Prowess Buffs will increase the bursts of Energy Damage from this attack. "
+        },
+        "3": {
+            "name": "Duel of the Mind",
+            "description": "Gain a Prowess Buff for each Cerebro Charge, increasing Special Attack Damage by 60% and lasting 40 second(s). Max 4 stack(s).",
+            "note": "As Professor X wins more fights, he’ll gain more Cerebro Charges, greatly increasing the benefit of his Special 3. In Mind Control, keep in mind that due to the reduced cost of Special Attacks, Professor X can use his Special 2 immediately after this attack."
+        }
+    },
+    "signature": {
+        "name": "Krakoan Sovereignty",
+        "description": "While below 75 Channeling Charge(s), gain 1 Charge(s) per second. While Defending, this rate is doubled and Charges are gained for the entire fight.\nGain up to 50% Prowess Potency, scaling with the Opponent’s Power Meter.",
+        "note": "With his Signature Ability unlocked, Professor X is encouraged to inflict Mind Control when his Opponent has as much power as possible, increasing the potency of all Prowess Buffs gained during Mind Control."
+    },
+    "author": {
+        "name": "Kabam",
+        "type": "spotlight",
+        "profile": "https://playcontestofchampions.com/champion-spotlight-professor-x/"
+    },
+    "youtube": "nEGRn3fyRrM"
+}
