@@ -1,0 +1,34 @@
+{
+    "description": "In his earlier days, James Hudson worked for Am-Can as a petrochemical engineer. When he discovered the company’s deep-seated corruption, Hudson left immediately, stealing his latest invention: a super-suit primed to search for underground oil deposits. Fleeing the consequences of his actions, Hudson became Guardian, the founding member of Canada’s elite team of superhumans known as the Alpha Flight, defenders of the True North.",
+    "gameplay": {
+        "description": "PASSIVE \n- Guardian can’t land Critical Hits naturally, however every time he would have landed a Critical Hit, he deals a burst of Shock Damage. This ability scales with Critical Damage Rating.\n- Guardian can trigger the Parry Mastery against non-contact attacks.\n- While Guardian’s Ability Accuracy is below 100% for 3+ second(s), he inflicts a Shock Debuff, dealing 345.15 Energy Damage per second. This ability scales with Base Attack only and cannot be affected by Ability Accuracy.\n\n\nARMOR UP\n- Start each fight with an indefinite Armor Up Buff, increasing Armor Rating by 2100.\n- If this Buff is removed for any reason, it will return after 14 second(s).\n\n\nFORCE FIELD\n- Force Field Charges last indefinitely, up to 3 Charges. Any additional Force Field Charges last for 22 seconds.\n- Gain 1 Force Field Charge every 12 seconds.\n- While Guardian has an Armor Up, Well-Timed Blocks against Special Attacks grant 100% Perfect Block Chance over 0.5 second(s). Each Perfect Block grants 10% of a bar of Power.\n- While Guardian has an Armor Up, gain a +15% chance per Force Field Charge to Auto-Block the Opponent’s Special Attack. Gain a flat +15% chance against Mutants. This Auto-Block is considered a Well-Timed Block and can reach a 75% chance max.\n- Consume 1 Force Field Charge(s) to Block Unblockable Special Attacks against Mutants. \n\n\nENDING A COMBO WITH A LIGHT ATTACK\n- Consume 2 Force Field Charge(s), inflicting a Power Drain removing 20% of the Opponent’s current Power."
+    },
+    "attack": {
+        "heavy": "The first hit consumes 1 Force Field Charge(s) to gain an Armor Up Buff, increasing Armor Rating by 2100 for 15 second(s).",
+        "note": "In order to retain Guardian’s defensive abilities after using a Special 2 Attack, Guardian can gain an additional Armor Up with his Heavy Attack which is consumed by the Special 2 Attack."
+    },
+    "specials": {
+        "1": {
+            "description": "Supersonic Charge \n- After activation, gain 3 Force Field Charge(s).\n- The last hit inflicts a Taunt Debuff lasting for 6 seconds. Opponents that are Taunted have their Attack Rating reduced by 40% and have 70% higher chance to activate a Special Attack.",
+            "note": "Guardian’s Special 1 Attack is the fastest way to gain Force Field Charges. It also allows Guardian to Taunt the Opponent briefly for an easier time dealing with the Power Meter."
+        },
+        "2": {
+            "description": "Electromagnetic Beam\n- The first hit consumes all Force Field Charges, increasing Attack Rating by 2876.25 for each Force Field Charge for the duration of the Special Attack.\n- If Guardian has 3+ Force Field Charges consume 1 Armor Up Buff, inflicting a Shock Debuff, dealing 5752.5 Energy Damage over 3 second(s).\n- This attack cannot be Evaded by Mutant Champions.",
+            "note": "This is Guardian’s big burst of damage. Try and get as many Force Field Charges before blowing up the Opponent with this ability. Be careful after using ability if you’ve consumed your only Armor Up Buff, you won’t be able to Perfect Block or Auto-Block Special Attacks until it returns."
+        },
+        "3": {
+            "description": "Striking Oil\n- On activation, gain 6 indefinite Force Field Charge(s).\n- Inflict a Shock Debuff, dealing 3451.5 Energy Damage over 20 second(s).",
+            "note": "The Special 3 Attack is the most reliable way to gain Force Field Charges since all Charges are indefinite. This allows Guardian to stack tons of Charges for an even bigger burst of damage."
+        }
+    },
+    "signature": {
+        "description": "Weapon Alpha\n- While Guardian has an Armor Up effect, gain the following effects:\n- +2563.46 Block Proficiency\n- +8392.11 Energy Resistance\n- +79.98% Bleed Resistance\n- +314.01 Critical Damage Resistance",
+        "note": "Weapon Alpha provides protection against a wide range of Quest Buffs, Masteries and Champions making Guardian a good choice in fights with some Damaging Debuffs or high Attack Ratings."
+    },
+    "author": {
+        "name": "Kabam",
+        "type": "spotlight",
+        "profile": "https://playcontestofchampions.com/champion-spotlight-guardian/"
+    },
+    "youtube": "bDfnui5u-qY"
+}
