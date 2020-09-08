@@ -1,0 +1,33 @@
+{
+    "description": "Thousands of years ago in ancient Aqaba, the first living being on Earth to express the mutant X-gene was born, given the name “En Sabah Nur” or “The First One”. As he traveled the Earth, En Sabah Nur deemed himself “Apocalypse” convincing ancient civilizations that he was a deity and manipulating them into fighting wars which he justified as stimulating growth, judgment, and destruction. After conquesting the Earth for many millennia Apocalypse used Celestial technology to enter a period of suspended animation for many centuries, awakening in the current age and deciding the Earth is ready for further examination.",
+    "gameplay": {
+        "description": "Genetic Enhancement – Max Stacks 4\nStart each quest with 1 Persistent Genetic Code. This becomes 2 if Defending, and 3 if Defending a final boss node.\nKnocking out a non-#Robot Opponent grants 1 Genetic Code.\nGain 2 Genetic Code at the start of the fight when fighting a Mutant.\nAt the start of the fight gain 1 indefinite Passive Prowess for each Genetic Code, each increasing Special Attack Damage by 40%.\nAt 3+ Genetic Code, become Stun-immune while striking.\nAt 4+ Genetic Code, striking the Opponent’s Block with Light Attack inflicts a Stun Debuff for 0.8 seconds. Cooldown 12 seconds. This has no effect against Well-Timed Blocks.\n\nTotal Molecular Control\nDevelop immunity to Bleed, Incinerate and Disorient effects over 8 seconds while suffering from them. Once developed, these immunities persist for the entire quest.\nEach time the Opponent Evades, gain +10% chance to bypass Evade. This is not affected by Ability Accuracy reduction and the chance to bypass Evade persists throughout the quest.\nOpponents suffer 100% Purify Ability Accuracy reduction.\n\nSpecial Attacks\nIf the Opponent is suffering from a Damage Over Time effect, Special Attack Debuffs trigger on activation and last 30% longer.\nEach hit deals a burst of 615.33 Physical Damage for each personal Weakness, Poison, Concussion or Degeneration on the Opponent.\n\nHorseman of Apocalypse – Pre-Fight and Cross-Fight\nOnce Per Quest If Apocalypse has 4 Genetic Code he can spend them in the Pre-Fight screen to place a Cross-Fight on the next fight. The next Mutant teammate excluding Apocalypse to enter this fight becomes a Horseman of Apocalypse for the rest of the quest.\nHorsemen gain the following abilities:\n- +100% Bleed Resistance.\n- An indefinite Prowess increasing Special Attack Damage by 50%.\n- +30% Offensive Ability Accuracy.\n- Go Unblockable for 2 seconds when the Opponent Purifies a Debuff.\n- Once per fight go Unstoppable for 3 seconds when struck."
+    },
+    "attack": {
+        "heavy": "Both hits inflict Bleed dealing 797.65 Direct Damage over 7 seconds.\nRefresh personal Weakness, Poison, Concussion and Degeneration effects on the Opponent."
+    },
+    "specials": {
+        "1": {
+            "description": "Inflict a Debuff determined by the last Light or Medium Attack thrown. If fighting a Mutant, or if Apocalypse has 4 Genetic Code, trigger both.\nLight Attack – Inflict a non-stacking Weakness reducing Attack Rating by 25% for 25 seconds.\nMedium Attack – Inflict a non-stacking Poison dealing 4558 Direct Damage and reduce health recovery by 30% over 25 seconds."
+        },
+        "2": {
+            "description": "Inflict a Debuff determined by the last Light or Medium Attack thrown. If fighting a Mutant, or if Apocalypse has 4 Genetic Code, trigger both.\nLight Attack – Inflict a non-stacking Concussion reducing Ability Accuracy by 35% for 25 seconds.\nMedium Attack – Inflict a non-stacking Degeneration dealing 7976.5 Direct Damage over 25 seconds.",
+            "note": "Combo enders are key in choosing what effect you want to trigger in  Special Attacks 1 and 2. You can think of it this way: end with a Light Attack for Utility, end with a Medium for Damage."
+        },
+        "3": {
+            "description": "All personal Weakness, Poison, Concussion and Degeneration effects on the Opponent are retriggered at +100% Potency and paused indefinitely. This Potency increase does not stack multiple times.\nIf no personal Weakness, Poison, Concussion or Degeneration effects are active, inflict 2 at random. These will not gain additional potency and will not be paused.",
+            "note": "SP3 is most powerful for locking in your expiring Debuffs from SP1 and SP2. The ideal loop is to use SP1 and SP2 to get the Debuffs you want then use heavy attacks to refresh them as you build to your SP3."
+        }
+    },
+    "signature": {
+        "name": "Survival Of The Fittest",
+        "description": "When Apocalypse doesn’t participate in a fight he enters his Rejuvenation Chamber to slumber. At the start of his next fight, he Regenerates 3749.5 health for each fight his teammates won while he slumbered. This can stack up to 2 times.",
+        "note": "This ability essentially allows Apocalypse to Regenerate whenever his teammates win a fight. If you swap between using Apocalypse and his Horseman every few fights you can get the power of the horseman AND allow Apocalypse to slumber with his signature ability to regenerate back any health he might lose!"
+    },
+    "author": {
+        "name": "Kabam",
+        "type": "spotlight",
+        "profile": "https://playcontestofchampions.com/champion-spotlight-apocalypse/"
+    },
+    "youtube": "gGfHD0Gp0to"
+}

@@ -1,0 +1,34 @@
+{
+    "description": "Gabriel Lan was formerly a member of the Nova Corps, before eagerly accepting an offer from the cosmic entity, Galactus, to become his herald. Wielding the immense power of the Power Cosmic and the Bow of Gabriel, Air-Walker dutifully serves Galactus, terraforming worlds for his master, and crushing all who oppose him.",
+    "gameplay": {
+        "description": "PASSIVE:\nOffensive Combat Power Rate is decreased by 40%.\n\nPOWER COSMIC – PERSISTENT BUFF – MAX 3\nGain 3.5% of a Bar of Power every 1 second(s).\n+900 Armor Rating.\n+264 Attack Rating.\nAir-Walker starts the quest with 1 Power Cosmic Buff(s), which persists between fights. He gains 1 Power Cosmic Buff(s) when he wins a fight.\nWhen Air-Walker has no Power Cosmic Buffs, he will gain one after a 7.50 second cooldown.\nSpecial Attack 3 can only be used if Air-Walker has 3 Power Cosmic Buffs or is Defending.\n\nWHEN POWER DRAINED, POWER LOCKED, OR POWER BURNED\nInflict 3 Dark Tide Debuffs.\n\nTHE DARK TIDE – DEBUFF – MAX 10\nDark Tide Debuffs reduce Block Proficiency by 87.5 during their Opponent’s Special Attacks, and last indefinitely.\nChampions suffering from both Armor Break and Dark Tide take Direct Damage every 0.50 second(s). This damage is equal to 2% of their Opponent’s Base Attack per Dark Tide.\nOpponents remove one Dark Tide Debuff every time they fill a Bar of Power, or whenever the Power Cosmic is Nullified.\n\nTHE DARK TIDE – PASSIVE – CROSS FIGHT – MAX 1\nWhen the Opponent has 10 Dark Tide Debuffs, they are combined into a Passive that lasts for the rest of the fight and the next 2 fights they participate in.\nThe Dark Tide Passive counts as 10 Dark Tide Debuffs for Air-Walker’s abilities, and also gains additional effects based on the Opponent’s Class.\nIf the Opponent has a Dark Tide Passive, Air-Walker’s fourth Light Hit refreshes 2 Armor Break Debuff(s) on them.\n\nWHEN CHARGING A HEAVY ATTACK\nIncrease Ability Power Rate by 300% and Heavy Charging can be held for an extended duration.\n75% of any Power Gained while Charging is lost over 0.75 second(s) after the Charge stops.\nIf Air-Walker fills a Bar of Power, he gains an Unblockable Buff for 1 second(s) that is paused during his Special Attacks.\nIf Air-Walker activates a Special Attack, he gains a Fury Buff during that Special Attack, increasing Attack Rating by +1760.\n\nSPECIAL ATTACKS\nActivating a Special Attack Armor Breaks the Opponent, reducing Armor Rating by 2100 for 11 second(s), stacking up to 8 time(s).\nIf the last hit isn’t Blocked, apply 1 Dark Tide Debuff to the Opponent, and an additional one for each Buff on Air-Walker.\n\nTHE DARK TIDE – CROSS FIGHT CLASS EFFECTS\nTech: Reduces the duration and potency of Power Drain, Lock and Burn effects by 70%.\nMutant: Reduces Offensive Ability Accuracy during Special Attacks by 33%.\nSkill: Critical Rating is reduced by 592.31.\nScience: Non-Damaging Debuffs have -25% Ability Accuracy.\nCosmic: Buff potency is reduced by 50%.\nMystic: Mystical energies resist the Dark Tide, so it has no additional effect."
+    },
+    "specials": {
+        "1": {
+            "name": "Cosmic Flame",
+            "description": "- The last hit has a 50% chance to inflict a Stun Debuff for 2 second(s). The chance is increased by 50% flat if Air-Walker is Unblockable.",
+            "note": "Since Air-Walker always applies the same number of Dark Tide Debuffs regardless which Special Attack is used, SP1 is the attack to focus on while building towards the Dark Tide Passive. This attack also greatly benefits from the Unblockable Buff that he can gain while Heavy Charging, since it will guarantee the Stun and allow him to immediately follow up on the Special Attack."
+        },
+        "2": {
+            "name": "Bow of Gabriel",
+            "description": "- If the Opponent has a Dark Tide Passive, this attack deals an additional 40% of the damage dealt as a burst of Energy Damage.",
+            "note": "Special Attack 2 is the name of the game once the Dark Tide Passive has been applied. And since the bonus energy damage is relative to how much damage was dealt, it’ll benefit from both the Fury Buff that Air-Walker triggers through Heavy Charging, and the Armor Break Debuffs he can apply."
+        },
+        "3": {
+            "name": "The Herald's Call",
+            "description": "Air-Walker replaces Power Cosmic with the Power of Galactus Buff for 20 second(s), granting:\n+2640 Attack Rating.\nRegenerate +4984.05 Health.\nGain 10.5% of a Bar of Power every 1 second(s).\nGain a Passive Unstoppable effect.\nEvery attack has a 100% chance to deal an additional burst of Direct Damage. The damage is equal to 5% of the damage dealt, per Dark Tide on the Opponent.\nPower of Galactus sets Air-Walker’s Power to 0 when it ends.",
+            "note": "After spending a few fights building Power Cosmic, Air-Walker is able to unleash the Power of Galactus. This buff has a laundry list of effects, but one to pay particular attention to is the Power Gain. It’s equal to the amount of Power he would gain from 3 Power Cosmic Buffs, so the Power Galactus won’t cause him to lose out on all the Power gain he gets from charging his Heavy Attack."
+        }
+    },
+    "signature": {
+        "name": "Herald of the Destroyer",
+        "description": "Passive:\nInflict a Dark Tide Debuff on the Opponent every 8 second(s).",
+        "note": "If Air-Walker has his Signature Ability, he’ll apply Dark Tide Debuffs over time, putting extra pressure on the Opponent to get rid of them before they’re converted into the Dark Tide Passive."
+    },
+    "author": {
+        "name": "Kabam",
+        "type": "spotlight",
+        "profile": "https://playcontestofchampions.com/champion-spotlight-air-walker/"
+    },
+    "youtube": "sk0Zqo9dlpM"
+}
