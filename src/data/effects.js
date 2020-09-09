@@ -316,6 +316,7 @@ export const EFFECT_STARS_AMOUNT = {
     [ EFFECT.COMMON_HISTORY ]: [ 10, 12, 15 ],
     [ EFFECT.NOVA_CORPS_VETERANS ]: [ 10, 12, 15 ],
     [ EFFECT.THE_HIGH_GROUND ]: [ 10, 12, 15 ],
+<<<<<<< Updated upstream
     [ EFFECT.THE_FIRST_ONE ]: [ 10, 12, 15 ],
     [ EFFECT.BRINGER_OF_DEATH_I ]: [ 10, 12, 15 ],
     [ EFFECT.BRINGER_OF_DEATH_II ]: [ 10, 12, 15 ],
@@ -348,6 +349,8 @@ export const EFFECT_STARS_AMOUNT = {
     [ EFFECT.METALLIC_AFFINITY ]: [ 10, 12, 15 ],
     [ EFFECT.REDEMPTION ]: [ 10, 12, 15 ],
     [ EFFECT.RISE_AGAINST_THE_CONTEST ]: [ 10, 12, 15 ],
+=======
+>>>>>>> Stashed changes
 };
 export const EFFECT_STARS_INDEX = { 1: 0, 2: 0, 3: 1, 4: 2, 5: 2 };
 
@@ -668,6 +671,7 @@ const effects = [
     { uid: EFFECT.COMMON_HISTORY },
     { uid: EFFECT.NOVA_CORPS_VETERANS },
     { uid: EFFECT.THE_HIGH_GROUND },
+<<<<<<< Updated upstream
     { uid: EFFECT.THE_FIRST_ONE },
     { uid: EFFECT.BRINGER_OF_DEATH_I },
     { uid: EFFECT.BRINGER_OF_DEATH_II },
@@ -700,6 +704,9 @@ const effects = [
     { uid: EFFECT.METALLIC_AFFINITY },
     { uid: EFFECT.REDEMPTION },
     { uid: EFFECT.RISE_AGAINST_THE_CONTEST },
+=======
+
+>>>>>>> Stashed changes
 ].map(({ uid }) => new Effect({
     uid,
     base: EFFECT_STARS_AMOUNT[ uid ][ 0 ],
@@ -1023,6 +1030,7 @@ const effectIcons = {
     [ EFFECT.COMMON_HISTORY ]: 'effect-common-history',
     [ EFFECT.NOVA_CORPS_VETERANS ]: 'effect-attack',
     [ EFFECT.THE_HIGH_GROUND ]: 'effect-time',
+<<<<<<< Updated upstream
     [ EFFECT.THE_FIRST_ONE ]: 'effect-attack',
     [ EFFECT.BRINGER_OF_DEATH_I ]: 'effect-spirit-of-justice',
     [ EFFECT.BRINGER_OF_DEATH_II ]: 'effect-living-steel-curtain',
@@ -1055,6 +1063,8 @@ const effectIcons = {
     [ EFFECT.METALLIC_AFFINITY ]: 'effect-metallic',
     [ EFFECT.REDEMPTION ]: 'effect-redemption',
     [ EFFECT.RISE_AGAINST_THE_CONTEST ]: 'type-skill',
+=======
+>>>>>>> Stashed changes
 };
 
 function effectIcon(uid) {

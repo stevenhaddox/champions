@@ -164,6 +164,7 @@ export const YELLOWJACKET = 'yellowjacket';
 export const BLACKWIDOWCLAIRE = 'blackwidowclaire';
 export const DIABLO = 'diablo';
 export const DORMAMMU = 'dormammu';
+export const DRAGONMAN = 'dragonman';
 export const DRDOOM = 'drdoom';
 export const DRSTRANGE = 'drstrange';
 export const DRSTRANGEMARVELNOW = 'drstrangemarvelnow';

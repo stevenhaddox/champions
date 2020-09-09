@@ -315,6 +315,7 @@ export const GIANT_CHALLENGERS = 'giantchallengers';
 export const COMMON_HISTORY = 'commonhistory';
 export const NOVA_CORPS_VETERANS = 'novacorpsveterans';
 export const THE_HIGH_GROUND = 'thehighground';
+<<<<<<< Updated upstream
 export const THE_FIRST_ONE = 'thefirstone';
 export const BRINGER_OF_DEATH_I = 'bringerofdeathi';
 export const BRINGER_OF_DEATH_II = 'bringerofdeathii';
@@ -347,3 +348,5 @@ export const ATONEMENT = 'atonement';
 export const METALLIC_AFFINITY = 'metallicaffinity';
 export const REDEMPTION = 'redemption';
 export const RISE_AGAINST_THE_CONTEST = 'riseagainstthecontest';
+=======
+>>>>>>> Stashed changes

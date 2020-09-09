@@ -336,6 +336,7 @@ const EFFECT_COLORS = {
     [ EFFECT.FURRY_BUDS ]: '#7e04c4',
     [ EFFECT.GIANT_CHALLENGERS ]: '#059974',
     [ EFFECT.COMMON_HISTORY ]: '#050147',
+<<<<<<< Updated upstream
     [ EFFECT.NOVA_CORPS_VETERANS ]: '#2F4F4F',
     [ EFFECT.THE_HIGH_GROUND ]: '#7B68EE',
     [ EFFECT.THE_FIRST_ONE ]: '#00BFFF',
@@ -370,6 +371,11 @@ const EFFECT_COLORS = {
     [ EFFECT.METALLIC_AFFINITY ]: '#7FFF00',
     [ EFFECT.REDEMPTION ]: '#B8860B',
     [ EFFECT.RISE_AGAINST_THE_CONTEST ]: '#D2691E',
+=======
+    [ EFFECT.NOVA_CORPS_VETERANS ]: '#262a82',
+    [ EFFECT.THE_HIGH_GROUND ]: '#825d26',
+
+>>>>>>> Stashed changes
 };
 
 function getTypeColor(typeId) {
