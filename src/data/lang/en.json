@@ -50,7 +50,6 @@
     "champion-drdoom-name": "Doctor Doom",
     "champion-drstrange-name": "Doctor Strange (Classic)",
     "champion-drstrangemarvelnow-name": "Doctor Strange (Marvel Now)",
-    "champion-dragonman-name": "Dragon Man",
     "champion-ebonymaw-name": "Ebony Maw",
     "champion-electro-name": "Electro",
     "champion-elektra-name": "Elektra",
@@ -580,7 +579,6 @@
     "effect-commonhistory-name": "Common History",
     "effect-novacorpsveterans-name": "Nova Corps Veterans",
     "effect-thehighground-name": "The High Ground",
-<<<<<<< Updated upstream
     "effect-thefirstone-name": "The First One",
     "effect-bringerofdeathi-name": "Bringer of Death - I",
     "effect-bringerofdeathii-name": "Bringer of Death - II",
@@ -613,8 +611,6 @@
     "effect-metallicaffinity-name": "Metallic Affinity",
     "effect-redemption-name": "Redemption",
     "effect-riseagainstthecontest-name": "Rise Against The Contest",
-=======
->>>>>>> Stashed changes
 
     "effect-attack-type": "Attack",
     "effect-critrate-type": "Critical Rate",
@@ -931,7 +927,6 @@
     "effect-furrybuds-type": "Furry Buds (Unique Sinergy)",
     "effect-giantchallengers-type": "Giant Challengers (Unique Sinergy)",
     "effect-commonhistory-type": "Common History (Unique Sinergy)",
-<<<<<<< Updated upstream
     "effect-novacorpsveterans-type": "Nova Corps Veterans (Unique Synergy)",
     "effect-thehighground-type": "The High Ground (Unique Synergy)",
     "effect-thefirstone-type": "The First One (Unique Synergy)",
@@ -966,10 +961,6 @@
     "effect-metallicaffinity-type": "Metallic Affinity (Unique Synergy)",
     "effect-redemption-type": "Redemption (Unique Synergy)",
     "effect-riseagainstthecontest-type": "Rise Against The Contest (Unique Synergy)",
-=======
-    "effect-novacorpsveterans-type": "Nova Corps Veterans (Unique Sinergy)",
-    "effect-thehighground-type": "The High Ground (Unique Sinergy)",
->>>>>>> Stashed changes
 
     "effect-attack-description": "Increases damage on all attacks.",
     "effect-critrate-description": "Increases the chance for critical hit.",
@@ -1286,7 +1277,6 @@
     "effect-furrybuds-description": "Sasquatch: Rupture effects last 20% longer. \nSquirrel Girl: When Tippy-Toe attaches to the Opponent she stays on for 30% longer.",
     "effect-giantchallengers-description": "Sasquatch: Start the fight with 3 Stacks of Rage. \nKing Groot: Start the fight with +3 paused personal Furys. \nThing: Start the fight with 3 Rock Stacks. \nSentinel: Start the fight with 30 Analysis Charges.",
     "effect-commonhistory-description": "Sasquatch: Each stack of Rage increases Wrath of Tanaraq by an additional 0.3 seconds. \nHulkbuster: Start the fight with an indefinite Armor Up Buff, granting +15% Armor Rating. This can stack above Hulkbusters Armor Up cap.",
-<<<<<<< Updated upstream
     "effect-novacorpsveterans-description": "Air-Walker: Whenever a Dark Tide is placed on the Opponent, 30% chance to place an additional one.\nNova: Reaching 75 Nova Charges refreshes Nova’s Fury Buffs, even while at maximum stacks.",
     "effect-thehighground-description": "Air-Walker: Heavy Charging increases Ability Power Rate by an additional 150%, reduced by 50% for each Persistent Power Cosmic Air-Walker has.\nGreen Goblin: Special Attack 1 Laser Blasts have +40% flat chance to Power Drain.\nPhoenix: While Overloaded, Heavy Attacks also refresh Phoenix’s Armor Break Debuffs.\nEbony Maw: While the Opponent is suffering from Falter or Black Tongue, Ebony Maw gains +70% Attack Rating.",
     "effect-thefirstone-description": "Apocalypse: Gain +15% Attack Rating for each Mutant on the team excluding himself.",
@@ -1321,10 +1311,6 @@
     "effect-metallicaffinity-description": "Wolverine (X-23): Bleed & Cruelty effects gain +35% duration.\nCable: Begin the fight with 60% Poison Resistance.\nTaskmaster: Exploit Weakness attacks deal +40% Damage.\nMagneto (House of X): Gain an indefinite Prowess Buff, granting +20% Special Attack damage.",
     "effect-redemption-description": "Colossus: Opponent’s Nullify & Stagger effects suffer -65% Ability Accuracy.\nGuardian: Gain Force Field charges 3.5 seconds faster.\nMagneto (House of X): Defeating #Villain Champions grants 1 Persistent Charge. +10% Attack while fighting #Villains.",
     "effect-riseagainstthecontest-description": "Magneto (House of X): +5% Attack rating during the fight and Magneto (House of X)’s Atonement Synergy gains +25% Potency.\nProfessor X: All of Professor X’s Prowess Buffs gain 20% Duration.\nApocalypse: HORSEMEN gain +30% Prowess Potency.",
-=======
-    "effect-novacorpsveterans-description": "Air-Walker: Whenever a Dark Tide is placed on the Opponent, 30% chance to place an additional one. \nNova: Reaching 75 Nova Charges refreshes Nova’s Fury Buffs, even while at maximum stacks.",
-    "effect-thehighground-description": "Air-Walker: Heavy Charging increases Ability Power Rate by an additional 150%, reduced by 50% for each Persistent Power Cosmic Air-Walker has. \nGreen Goblin: Special Attack 1 Laser Blasts have +40% flat chance to Power Drain. \nPhoenix: While Overloaded, Heavy Attacks also refresh Phoenix’s Armor Break Debuffs. \nEbony Maw: While the Opponent is suffering from Falter or Black Tongue, Ebony Maw gains +70% Attack Rating.",
->>>>>>> Stashed changes
 
     "type-cosmic-name": "Cosmic",
     "type-tech-name": "Tech",

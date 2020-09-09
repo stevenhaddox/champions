@@ -50,13 +50,8 @@ const champions = [
         ...championStars({ uid: CHAMPION.HYPERION }, [ 2, 3, 4, 5 ]),
         ...championStars({ uid: CHAMPION.KAMALAKHAN }, [ 2, 3, 4, 5, 6 ]),
         ...championStars({ uid: CHAMPION.MEDUSA }, [ 2, 3, 4, 5 ]),
-<<<<<<< Updated upstream
         ...championStars({ uid: CHAMPION.MSMARVEL }, [ 2, 3, 4, 5, 6 ]),
-        ...championStars({ uid: CHAMPION.NOVA }, [ 3, 4, 5, 6 ]),
-=======
-        ...championStars({ uid: CHAMPION.MSMARVEL }, [ 2, 3, 4, 5 ]),
         ...championStars({ uid: CHAMPION.NOVA }, [ 2, 3, 4, 5, 6 ]),
->>>>>>> Stashed changes
         ...championStars({ uid: CHAMPION.PHOENIX }, [ 2, 3, 4, 5, 6 ]),
         ...championStars({ uid: CHAMPION.PROXIMAMIDNIGHT }, [ 2, 3, 4, 5, 6 ]),
         ...championStars({ uid: CHAMPION.RONAN }, [ 2, 3, 4, 5 ]),
@@ -105,11 +100,7 @@ const champions = [
     ]),
     ...typeId(TYPE.MUTANT, [
         ...championStars({ uid: CHAMPION.APOCALYPSE }, [ 2, 3, 4, 5, 6 ]),
-<<<<<<< Updated upstream
         ...championStars({ uid: CHAMPION.ARCHANGEL }, [ 2, 3, 4, 5, 6 ]),
-=======
-        ...championStars({ uid: CHAMPION.ARCHANGEL }, [ 2, 3, 4, 5 ]),
->>>>>>> Stashed changes
         ...championStars({ uid: CHAMPION.BEAST }, [ 2, 3, 4, 5, 6 ]),
         ...championStars({ uid: CHAMPION.BISHOP }, [ 2, 3, 4, 5, 6 ]),
         ...championStars({ uid: CHAMPION.CABLE }, [ 2, 3, 4, 5, 6 ]),
@@ -133,7 +124,6 @@ const champions = [
         ...championStars({ uid: CHAMPION.PLATINUMPOOL }, [ 5, 6 ]),
         ...championStars({ uid: CHAMPION.PROFESSORX }, [ 2, 3, 4, 5, 6 ]),
         ...championStars({ uid: CHAMPION.PSYLOCKEXFORCE }, [ 2, 3, 4, 5, 6 ]),
-        ...championStars({ uid: CHAMPION.PROFESSORX }, [ 2, 3, 4, 5, 6 ]),
         ...championStars({ uid: CHAMPION.ROGUE }, [ 2, 3, 4, 5, 6 ]),
         ...championStars({ uid: CHAMPION.SABRETOOTH }, [ 2, 3, 4, 5, 6 ]),
         ...championStars({ uid: CHAMPION.STORM }, [ 2, 3, 4, 5, 6 ]),
@@ -215,7 +205,6 @@ const champions = [
         ...championStars({ uid: CHAMPION.DRDOOM }, [ 2, 3, 4, 5, 6 ]),
         ...championStars({ uid: CHAMPION.DRSTRANGE }, [ 2, 3, 4, 5, 6 ]),
         ...championStars({ uid: CHAMPION.DRVOODOO }, [ 2, 3, 4, 5 ]),
-        ...championStars({ uid: CHAMPION.DRAGONMAN }, [ 2, 3, 4, 5, 6 ]),
         ...championStars({ uid: CHAMPION.EBONYMAW }, [ 2, 3, 4, 5, 6 ]),
         ...championStars({ uid: CHAMPION.GHOSTRIDER }, [ 2, 3, 4, 5 ]),
         ...championStars({ uid: CHAMPION.GUILLOTINE }, [ 2, 3, 4, 5, 6 ]),

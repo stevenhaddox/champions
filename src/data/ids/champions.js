@@ -169,7 +169,6 @@ export const DRDOOM = 'drdoom';
 export const DRSTRANGE = 'drstrange';
 export const DRSTRANGEMARVELNOW = 'drstrangemarvelnow';
 export const DRVOODOO = 'brothervoodoo';
-export const DRAGONMAN = 'dragonman';
 export const EBONYMAW = 'ebonymaw';
 export const GHOSTRIDER = 'ghostrider';
 export const GUILLOTINE = 'guillotine';
