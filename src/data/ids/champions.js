@@ -1,4 +1,5 @@
 // Cosmic
+export const AIRWALKER = 'airwalker';
 export const ANGELA = 'angela';
 export const ANNIHILUS = 'annihilus';
 export const BLACKBOLT = 'blackbolt';
@@ -64,6 +65,7 @@ export const WARLOCK = 'warlock';
 export const WARMACHINE = 'warmachine';
 export const YONDU = 'yondu';
 // Mutant
+export const APOCALYPSE = 'apocalypse';
 export const ARCHANGEL = 'archangel';
 export const BEAST = 'beast';
 export const BISHOP = 'bishop';
@@ -86,6 +88,7 @@ export const NAMOR = 'namor';
 export const NIGHTCRAWLER = 'nightcrawler';
 export const OMEGARED = 'omegared';
 export const PLATINUMPOOL = 'platinumpool';
+export const PROFESSORX = 'professorx';
 export const PSYLOCKEXFORCE = 'psylockexforce';
 export const ROGUE = 'rogue';
 export const SABRETOOTH = 'sabretooth';
@@ -165,6 +168,7 @@ export const DRDOOM = 'drdoom';
 export const DRSTRANGE = 'drstrange';
 export const DRSTRANGEMARVELNOW = 'drstrangemarvelnow';
 export const DRVOODOO = 'brothervoodoo';
+export const DRAGONMAN = 'dragonman';
 export const EBONYMAW = 'ebonymaw';
 export const GHOSTRIDER = 'ghostrider';
 export const GUILLOTINE = 'guillotine';
