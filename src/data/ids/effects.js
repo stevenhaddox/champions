@@ -75,6 +75,7 @@ export const CODE_RED_REVELATIONS = 'coderedrevelations';
 export const BETTER_LUCK_NEXT_TIME = 'betterlucknexttime';
 export const COMPLICATED = 'complicated';
 export const ESOTERIC_INSIGHT = 'esotericinsight';
+export const COVERT_INSIGHT = 'covertinsight';
 export const FAMILIAR_INSIGHT = 'familiarinsight';
 export const WAKANDAN_INSIGHT = 'wakandaninsight';
 export const ENHANCED_SOLDIERS = 'enhancedsoldiers';
