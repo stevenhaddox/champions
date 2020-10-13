@@ -1,0 +1,34 @@
+{
+    "description": "In a desperate move to regain his lost connection to the Green Goblin persona, Norman Osborn bonded with the Carnage Symbiote. The result was Red Goblin, a demonic creature with a limitless thirst for death and unmatched hatred for Peter Parker.",
+    "gameplay": {
+        "description": "Passives:\nGain full Immunity to Incinerate and Power Burn.\nRed Goblin’s Symbiote reduces Ability Accuracy of Passive Evade abilities for #Spider-Verse Champions by 100%\n\nPersistent Bloodlust – Max 5\nAfter Winning a Fight, gain 1 Bloodlust  for the remainder of the Quest. If defeating a #Spider-Verse Champion, gain +1 Bloodlust.\nLose 1 Bloodlust when defeated.\n\nFrenzy: \nWhile the Opponent has less than 15% health remaining, activate Frenzy. Each Bloodlust increases this threshold by a flat 10%, reaching 65% at max Bloodlust. \nFrenzy also triggers a True Sense Buff bypassing the effects of Miss and Auto Block. If Frenzy ends, this Buff is removed.\nGain 314.7 Attack Rating. Additionally gain 314.7 Attack Rating for each Bloodlust. Each stack suffers from 15% reduced Potency\n\nSpecial Activation – Symbiote Buffs\nActivating Special Attacks creates a Buff based on the last attack launched. Buffs last for 15 seconds but start Paused. Buffs are unpaused the next time one of them is triggered.\nLight Attack: Energize, granting 25% Combat Power Rate. Aptitudes increase the Potency of these Energize Buffs by 75%.\nMedium Attack: Fury, granting 1258.8 Attack Rating.\nHeavy Attack: Aptitude, granting 120% increased Fury, Precision, and Armor Up Potency.\n\nCarnage Bombs – Heavy Attacks and Special 2\nEach Energize Buff inflicts Power Drain, draining 10% max Power over 15 seconds.\nEach Fury Buff inflicts Armor Break, reducing Armor by 525 for 15 seconds.\nAll other Buffs inflict Incinerate, dealing 3671.5 Energy Damage over 15 seconds. Incinerate also prevents Perfect Block and reduces Block Proficiency by -50%.\n\nHeavy Attacks:\nCarnage Bomb Debuffs inflicted by this attack have 65% reduced Duration."
+    },
+    "specials": {
+        "1": {
+            "name": "Symbiote Rushdown",
+            "description": "Symbiote Attacks: All 5 hits deal a burst of direct damage equal to 100% damage dealt. Potency increased by 100% for each Unique Debuff on the Opponent.\nShrapnel Blast: Incinerate, dealing 3147 Energy Damage over 20 seconds.",
+            "note": "This is the fluffy base. Here is a good place to quickly add a mixture of ingredients. I like to fold in a light attack to get an Energize Buff, then speed my way to the Special 3. That’s where we will prepare the icing.\nIf you don’t care for icing, fold in a Heavy Attack instead for the Aptitude Buff, then Preheat your oven to 350F/180C and head to the Special 2."
+        },
+        "2": {
+            "name": "Goblin Onslaught",
+            "description": "Carnage Bombs: Inflict Carnage Bomb Debuffs.\nAfter Burner: All 3 hits deal a burst of 2098 energy damage.",
+            "note": "Before popping this bad boy into the oven, I’d recommend launching a Medium Attack. The Fury Buffs will apply Armor Breaks, and give your cake that sweet, sweet taste of big yellow numbers. Fury Buffs are delicious either way, but are best used once an Aptitude Buff is in place."
+        },
+        "3": {
+            "name": "Seething Madness",
+            "description": "Activate Frenzy for 30 seconds.\nInflict 7 Random Carnage Bomb Debuffs with 50% increased Duration.",
+            "note": "Frenzy is the icing. It’s great on its own, but when added to a well prepared cake, the two become something so far beyond what they could have ever been alone. Make sure the icing is prepared before you launch the Special 2 so you can eat your cake immediately!\nIf you haven’t already, this is a good place to add the Heavy Attack for an Aptitude Buff. They supercharge any future Buffs you add to the mixture. "
+        }
+    },
+    "signature": {
+        "name": "Symbiotic Empowerment",
+        "description": "While Frenzy is Active: Special Attacks generate +1 Symbiote Buff with 35% reduced Potency.",
+        "note": "Alight Shh shh shh… things are about to get serious, don’t let anybody see the screen. Is it hidden? Okay good… This right here is the secret ingredient. It’s not strictly legal, so keep it to yourself okay!? It gives an extra kick to the already mouth watering Frenzy icing. This ingredient will double your buffs, which also doubles your debuffs. No weird side effects. None. not one. So don’t worry about it. Bueno? Bueno."
+    },
+    "author": {
+        "name": "Kabam",
+        "type": "spotlight",
+        "profile": "https://playcontestofchampions.com/champion-spotlight-red-goblin/"
+    },
+    "youtube": "4Km_5xIZCCU"
+}

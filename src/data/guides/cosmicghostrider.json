@@ -1,0 +1,33 @@
+{
+    "description": "During Earth’s last stand against Thanos the Punisher, Frank Castle, was struck and killed. A lifetime of killing saw his soul sent to Hell, and a deal struck with Mephisto saw him to become the latest Ghost Rider. But by the time he returned to Earth, everything was dead, and Thanos was gone. After endless years alone, Ghost Rider was found by Galactus, who agreed to make him his Herald in exchange for being allowed to devour Earth. And so he became the Cosmic Ghost Rider, and a Herald of Galactus.",
+    "gameplay": {
+        "description": "Immunities – Passive\nA lack of blood provides Full Immunity to Bleed.\nBeing wreathed in hellfire provides Full Immunity to Incinerate.\n\nCosmic Penance Stare – Debuff\nWhen fighting a #Villain, at the start of the fight gain a 100% Chance to place an indefinite Armor Break Debuff on the Opponent reducing their Armor Rating by 700, and removing an active Armor Up Buff.\n\nCosmic judgment – Passive\nWhen Cosmic Ghost Rider triggers Armor Up, Fury, Precision, Cruelty, Power Gain, Unblockable, Vigilance, or Aptitude Buffs he also has a 100% chance to gain a corresponding judgment.\nEach judgment can only be stacked a single time, but lasts indefinitely.\nEach judgment increases the duration of any Buff Triggered by 20%. While you have 5 judgments in place, this bonus is doubled.\nUpon gaining any 5 or more judgments there is a 100% chance to place a Power Lock Debuff on the Opponent for 4 seconds.\nAfter this Power Lock ends or if it fails to apply, all judgments on the Opponent are converted to Armor Break Debuffs, reducing their Armor Rating by 1130 for 10 seconds, and removing an Armor Up Buff.\nIf Cosmic Ghost Rider gains a Fate Seal Debuff, he Removes all of his judgments, and he cannot trigger new ones until it ends.\n\nWhen Attacked\nWhen Struck if the Judgment of Armor is not active: 100% Chance to trigger an Armor Up Buff granting +900 Armor for 10 seconds.\n\nFinish a 5-Hit Combo with a Medium attack\nIf the Judgment of Vigilance is not active: 100% Chance to trigger a Vigilance Buff, preventing your attacks from Missing for 10 seconds.\n\nFinish a 5-Hit Combo with a Light attack\nIf the Judgment of Power Gain is not active: 100% Chance to trigger a Power Gain Buff, granting 75% of a Bar of Power over 1.25 seconds.\n\nWhen Charging a Heavy Attack\nIf the Judgment of Aptitude is not active: 100% Chance to trigger an Aptitude Buff increasing the potency of any Armor Up, Fury, Cruelty, and Precision Buffs triggered by 50% for 8 seconds.\n\nWhen Activating a Special Attack\nIf the Judgment of Cruelty is not active: 100% Chance to trigger an Cruelty Buff granting +737 Critical Damage Rating for 15 seconds.\n"
+    },
+    "specials": {
+        "1": {
+            "name": "Hellfire",
+            "description": "On Activation: If the Judgment of Unblockable is not active: 100% Chance to trigger an Unblockable Buff for 1 second.\nOn Hit: 100% Chance to Incinerate, dealing 1380 Energy Damage over 5 Seconds, reducing Block Proficiency by 50%, and removing all Perfect Block Chance.On activation, gain 25 Channeling Charge(s).",
+            "note": "The Unblockable here is useful for countering some annoying Autoblocks, and can catch you by surprise on Defense if you’re not paying attention."
+        },
+        "2": {
+            "name": "Power Cosmic",
+            "description": "On Activation: If the Judgment of Precision Is not active: 100% Chance to trigger an Precision Buff increasing Critical Rating by 8400 for 15 seconds.\nOn Hit: 100% Chance to apply an Armor Break Debuff on the Opponent reducing their Armor Rating by 1718 for 15 seconds, and removing an active Armor Up Buff.",
+            "note": "Both the Precision and the Armor Breaks from this SP can have a big impact on CGR’s damage output. But be careful! While that Precision is really strong, you can easily trigger the Judgement of Precision with Dexterity."
+        },
+        "3": {
+            "name": "Cosmic Judgement",
+            "description": "On Activation if the judgment of Fury is not active: 100% Chance to trigger an Fury Buff granting 2876 Attack for 15 seconds."
+        }
+    },
+    "signature": {
+        "name": "Cosmic Vengeance",
+        "description": "The Powerlock Debuff triggered when reaching 5 judgments is upgraded to a Damnation Debuff dealing 2877 damage over 5 seconds. Opponents under Damnation are also Power Locked, Heal Blocked, and Fate Sealed.",
+        "note": "Cosmic Ghost Rider’s Signature Ability is good on both Attack and Defense. Obviously on Defense it makes triggering his 5th Judgment quite a bit more hazardous, and bringing a Fate Seal along to reset him safely might be a good idea. On Offense it gives him the ability to counter some spike healing abilities, or Buffs."
+    },
+    "author": {
+        "name": "Kabam",
+        "type": "spotlight",
+        "profile": "https://playcontestofchampions.com/champion-spotlight-cosmic-ghost-rider/"
+    },
+    "youtube": "22xk8ccEVqA"
+}
