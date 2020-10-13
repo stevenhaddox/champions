@@ -347,6 +347,15 @@ export const EFFECT_STARS_AMOUNT = {
     [ EFFECT.METALLIC_AFFINITY ]: [ 10, 12, 15 ],
     [ EFFECT.REDEMPTION ]: [ 10, 12, 15 ],
     [ EFFECT.RISE_AGAINST_THE_CONTEST ]: [ 10, 12, 15 ],
+    [ EFFECT.FAMILY_FEUD ]: [ 10, 12, 15 ],
+    [ EFFECT.HATRED ]: [ 10, 12, 15 ],
+    [ EFFECT.OSBORN_TO_BE_WILD ]: [ 10, 12, 15 ],
+    [ EFFECT.SELF_CENTERED ]: [ 10, 12, 15 ],
+    [ EFFECT.SYMBIOTE_CONSCIOUSNESS ]: [ 10, 12, 15 ],
+    [ EFFECT.COSMIC_BANE_OF_EVIL ]: [ 10, 12, 15 ],
+    [ EFFECT.COSMIC_JUSTICE_ON_WHEELS ]: [ 10, 12, 15 ],
+    [ EFFECT.PUNISHMENTS_OF_INFINITE_VARIETY ]: [ 10, 12, 15 ],
+    [ EFFECT.SPIRITS_OF_VENGEANCE ]: [ 10, 12, 15 ],    
 };
 export const EFFECT_STARS_INDEX = { 1: 0, 2: 0, 3: 1, 4: 2, 5: 2 };
 
@@ -698,6 +707,15 @@ const effects = [
     { uid: EFFECT.METALLIC_AFFINITY },
     { uid: EFFECT.REDEMPTION },
     { uid: EFFECT.RISE_AGAINST_THE_CONTEST },
+    { uid: EFFECT.FAMILY_FEUD },
+    { uid: EFFECT.HATRED },
+    { uid: EFFECT.OSBORN_TO_BE_WILD },
+    { uid: EFFECT.SELF_CENTERED },
+    { uid: EFFECT.SYMBIOTE_CONSCIOUSNESS },
+    { uid: EFFECT.COSMIC_BANE_OF_EVIL },
+    { uid: EFFECT.COSMIC_JUSTICE_ON_WHEELS },
+    { uid: EFFECT.PUNISHMENTS_OF_INFINITE_VARIETY },
+    { uid: EFFECT.SPIRITS_OF_VENGEANCE },
 ].map(({ uid }) => new Effect({
     uid,
     base: EFFECT_STARS_AMOUNT[ uid ][ 0 ],
@@ -1052,6 +1070,15 @@ const effectIcons = {
     [ EFFECT.METALLIC_AFFINITY ]: 'effect-metallic',
     [ EFFECT.REDEMPTION ]: 'effect-redemption',
     [ EFFECT.RISE_AGAINST_THE_CONTEST ]: 'type-skill',
+    [ EFFECT.FAMILY_FEUD ]: 'effect-time',
+    [ EFFECT.HATRED ]: 'effect-armor-break',
+    [ EFFECT.OSBORN_TO_BE_WILD ]: 'effect-phalanx-feud',
+    [ EFFECT.SELF_CENTERED ]: 'effect-attack',
+    [ EFFECT.SYMBIOTE_CONSCIOUSNESS ]: 'effect-critical-damage',
+    [ EFFECT.COSMIC_BANE_OF_EVIL ]: 'effect-phalanx-feud',
+    [ EFFECT.COSMIC_JUSTICE_ON_WHEELS ]: 'effect-armor-break',
+    [ EFFECT.PUNISHMENTS_OF_INFINITE_VARIETY ]: 'effect-time',
+    [ EFFECT.SPIRITS_OF_VENGEANCE ]: 'effect-attack',
 };
 
 function effectIcon(uid) {
