@@ -2,7 +2,6 @@ import { CHAMPION } from './model/Champion';
 import { EFFECT } from './model/Effect';
 import { EFFECT_STARS_AMOUNT, EFFECT_STARS_INDEX } from './effects';
 import Synergy from './model/Synergy';
-import { WOLVERINE } from './ids/champions';
 
 function arrayRange(min, max) {
     const array = [];
@@ -183,7 +182,7 @@ const synergies = [
         ...fromStars(4, 6, [ CHAMPION.DEADPOOL, CHAMPION.DEADPOOLXFORCE ], EFFECT.CRITICAL_RATE),
         ...fromStars(4, 6, [ CHAMPION.ROGUE ], EFFECT.PERFECT_BLOCK),
     ]),
-    
+
     ...fromId(CHAMPION.CAPTAINAMERICA, [
         ...fromStars(2, 6, [ CHAMPION.SPIDERMAN, CHAMPION.SPIDERMANBLACK ], EFFECT.ARMOR),
         ...fromStars(2, 6, [ CHAMPION.SUPERIORIRONMAN ], EFFECT.CRITICAL_RATE),
@@ -242,7 +241,6 @@ const synergies = [
         ...fromStars(3, 6, [ CHAMPION.JUGGERNAUT, CHAMPION.UNSTOPPABLECOLOSSUS ], EFFECT.FEEL_CYTORAKS_EMBRACE),
         ...fromStars(2, 6, [ CHAMPION.GAMBIT, CHAMPION.X23, CHAMPION.DEADPOOL, CHAMPION.DEADPOOLXFORCE, CHAMPION.GOLDPOOL, CHAMPION.ROGUE, CHAMPION.BEAST, CHAMPION.DOMINO, CHAMPION.MAGNETOMARVELNOW ], EFFECT.ARMOR),
         ...fromStars(3, 6, [ CHAMPION.WOLVERINE, CHAMPION.WOLVERINEOLDMAN ], EFFECT.ARMOR),
-        
     ]),
 
     ...fromId(CHAMPION.CORVUSGLAIVE, [
@@ -305,7 +303,7 @@ const synergies = [
         ...fromStars(3, 6, [ CHAMPION.VENOM, CHAMPION.PUNISHER, CHAMPION.GHOSTRIDER ], EFFECT.DARK_JUSTICE),
         ...fromStars(4, 6, [ CHAMPION.VULTURE, CHAMPION.FALCON, CHAMPION.HAWKEYE ], EFFECT.BIRDS_OF_PREY),
     ]),
-    
+
     ...fromId(CHAMPION.DEADPOOL, [
         ...fromStars(2, 4, [ CHAMPION.PUNISHER ], EFFECT.PERFECT_BLOCK),
         ...fromStars(3, 4, [ CHAMPION.RHINO ], EFFECT.CRITICAL_RATE),
@@ -373,7 +371,7 @@ const synergies = [
         ...fromStars(3, 6, [ CHAMPION.HOOD ], EFFECT.INSEPARABLE),
         ...fromStars(2, 6, [ CHAMPION.DRSTRANGE ], EFFECT.ATTACK),
         ...fromStars(4, 6, [ CHAMPION.DRVOODOO ], EFFECT.CRITICAL_RATE),
-        ...fromStars(4, 6, [ CHAMPION.MORDO ], EFFECT.DARK_EMPOWERMENT),
+        ...fromStars(4, 6, [ CHAMPION.KARLMORDO ], EFFECT.DARK_EMPOWERMENT),
     ]),
 
     ...fromId(CHAMPION.DRAGONMAN, [
@@ -425,7 +423,7 @@ const synergies = [
         ...fromStars(3, 6, [ CHAMPION.CYCLOPS, CHAMPION.CYCLOPS90S ], EFFECT.ITS_COMPLICATED_2),
         ...fromStars(4, 6, [ CHAMPION.PHOENIX ], EFFECT.PHOENIX_FORCE),
     ]),
-    
+
     ...fromId(CHAMPION.FALCON, [
         ...fromStars(2, 6, [ CHAMPION.CAPTAINAMERICA, CHAMPION.CAPTAINAMERICAWWII ], EFFECT.ARMOR),
         ...fromStars(3, 6, [ CHAMPION.WARMACHINE, CHAMPION.BLACKWIDOW ], EFFECT.CRITICAL_RATE),
@@ -667,7 +665,7 @@ const synergies = [
     ...fromId(CHAMPION.GROOTKING, [
         ...fromStars(3, 6, [ CHAMPION.GROOT ], EFFECT.CRITICAL_RATE),
         ...fromStars(2, 6, [ CHAMPION.HULK ], EFFECT.CRITICAL_RATE),
-        ...fromStars(2, 6, [ CHAMPION.VENOM, CHAMPION.ABOMINATION  ], EFFECT.ARMOR),
+        ...fromStars(2, 6, [ CHAMPION.VENOM, CHAMPION.ABOMINATION ], EFFECT.ARMOR),
     ]),
 
     ...fromId(CHAMPION.KINGPIN, [
@@ -784,7 +782,7 @@ const synergies = [
         ...fromStars(2, 6, [ CHAMPION.MAGNETO, CHAMPION.MAGNETOMARVELNOW ], EFFECT.MUTANT_DOMINION),
         ...fromStars(3, 6, [ CHAMPION.CYCLOPS, CHAMPION.CYCLOPS90S, CHAMPION.PHOENIX ], EFFECT.BLOOD_LINES),
         ...fromStars(4, 6, [ CHAMPION.MODOK, CHAMPION.KINGPIN, CHAMPION.ULTRON ], EFFECT.MASTERMINDS_TWO),
-    ]),   
+    ]),
 
     ...fromId(CHAMPION.MOJO, [
         ...fromStars(2, 6, [ CHAMPION.LONGSHOT ], EFFECT.MOJOVERSE),
@@ -1032,7 +1030,7 @@ const synergies = [
         ...fromStars(3, 6, [ CHAMPION.BLACKPANTHER, CHAMPION.BLACKPANTHERCIVILWAR, CHAMPION.KILLMONGER ], EFFECT.NO_MERCY),
         ...fromStars(2, 6, [ CHAMPION.WOLVERINE ], EFFECT.ATTACK),
     ]),
-    
+
     ...fromId(CHAMPION.SASQUATCH, [
         ...fromStars(4, 6, [ CHAMPION.MANTHING, CHAMPION.SABRETOOTH ], EFFECT.JUST_HAIR_AND_THINGS),
         ...fromStars(3, 6, [ CHAMPION.HULK ], EFFECT.GAMMA_RAY_RAY),
@@ -1055,7 +1053,7 @@ const synergies = [
         ...fromStars(3, 6, [ CHAMPION.KARLMORDO, CHAMPION.HOOD, CHAMPION.MORNINGSTAR ], EFFECT.MYSTIC_OBSERVATION),
         ...fromStars(3, 6, [ CHAMPION.ULTRON, CHAMPION.GREENGOBLIN, CHAMPION.YONDU ], EFFECT.TECH_ADVANCEMENT),
     ]),
-    
+
     ...fromId(CHAMPION.SENTRY, [
         ...fromStars(4, 6, [ CHAMPION.VOID ], EFFECT.OTHER_HALF),
         ...fromStars(2, 6, [ CHAMPION.BLACKWIDOW, CHAMPION.VISION, CHAMPION.HAWKEYE, CHAMPION.CAPTAINAMERICA ], EFFECT.ARMOR),
@@ -1183,7 +1181,7 @@ const synergies = [
         ...fromStars(4, 6, [ CHAMPION.HAWKEYE ], EFFECT.MOSTLY_AVERAGE_JOES),
         ...fromStars(4, 6, [ CHAMPION.WINTERSOLDIER ], EFFECT.THUNDER),
     ]),
-    
+
     ...fromId(CHAMPION.TERRAX, [
         ...fromStars(3, 6, [ CHAMPION.PHOENIX ], EFFECT.DEATH_AND_RESURRECTION),
         ...fromStars(5, 6, [ CHAMPION.REDHULK, CHAMPION.KARLMORDO ], EFFECT.ELDERS_GAME),
@@ -1265,7 +1263,7 @@ const synergies = [
         ...fromStars(3, 5, [ CHAMPION.WOLVERINE, CHAMPION.WOLVERINEOLDMAN ], EFFECT.ARMOR),
         ...fromStars(3, 5, [ CHAMPION.CYCLOPS ], EFFECT.PERFECT_BLOCK),
     ]),
-    
+
     ...fromId(CHAMPION.VENOM, [
         ...fromStars(2, 6, [ CHAMPION.SPIDERMAN, CHAMPION.SPIDERMANMORALES ], EFFECT.ATTACK),
         ...fromStars(2, 6, [ CHAMPION.SPIDERMANBLACK, CHAMPION.AGENTVENOM, CHAMPION.VENOMPOOL ], EFFECT.HEALTH),
@@ -1339,7 +1337,7 @@ const synergies = [
         ...fromStars(3, 6, [ CHAMPION.CABLE ], EFFECT.GOING_VIRAL),
         ...fromStars(2, 6, [ CHAMPION.DOMINO, CHAMPION.MAGNETO, CHAMPION.MAGNETOMARVELNOW ], EFFECT.MUTANT_AGENDA),
     ]),
-    
+
     ...fromId(CHAMPION.WASP, [
         ...fromStars(3, 6, [ CHAMPION.ANTMAN, CHAMPION.GHOST ], EFFECT.HARD_TO_HIT),
         ...fromStars(4, 6, [ CHAMPION.YELLOWJACKET ], EFFECT.DEADLY_STING),
@@ -1358,7 +1356,7 @@ const synergies = [
         ...fromStars(2, 5, [ CHAMPION.CYCLOPS, CHAMPION.CYCLOPS90S ], EFFECT.CRITICAL_DAMAGE),
         ...fromStars(3, 5, [ CHAMPION.CAPTAINAMERICA, CHAMPION.CAPTAINAMERICAWWII ], EFFECT.ARMOR),
         ...fromStars(3, 5, [ CHAMPION.MAGNETO ], EFFECT.CRITICAL_RATE),
-    ]), 
+    ]),
 
     ...fromId(CHAMPION.WEAPONX, [
         ...fromStars(5, 6, [ CHAMPION.WOLVERINE, CHAMPION.WOLVERINEOLDMAN, CHAMPION.X23 ], EFFECT.A_GANG_OF),
@@ -1379,7 +1377,7 @@ const synergies = [
         ...fromStars(4, 6, [ CHAMPION.SUPERIORIRONMAN ], EFFECT.IDOL),
     ]),
 
-    ...fromId(CHAMPION.YONDU,[
+    ...fromId(CHAMPION.YONDU, [
         ...fromStars(4, 6, [ CHAMPION.RONAN ], EFFECT.CRITICAL_RATE),
         ...fromStars(4, 6, [ CHAMPION.ROCKET ], EFFECT.ARMOR),
         ...fromStars(2, 6, [ CHAMPION.BEAST, CHAMPION.NIGHTCRAWLER ], EFFECT.IT_AINT_EASY),
