@@ -136,12 +136,14 @@ export const THORRAGNAROK = 'thorragnarok';
 export const WINTERSOLDIER = 'wintersoldier';
 // Science
 export const ABOMINATION = 'abomination';
+export const ABOMINATIONIMMORTAL = 'abominationimmortal';
 export const ANTMAN = 'antman';
 export const CAPTAINAMERICA = 'captainamerica';
-export const CAPTAINAMERICAWWII = 'captainamericawwii';
 export const CAPTAINAMERICAIW = 'capamericaiw';
+export const CAPTAINAMERICAWWII = 'captainamericawwii';
 export const ELECTRO = 'electro';
 export const HULK = 'hulk';
+export const HULKIMMORTAL = 'hulkimmortal';
 export const HULKRAGNAROK = 'hulkragnarok';
 export const HUMANTORCH = 'humantorch';
 export const INVISIBLEWOMAN = 'invisiblewoman';

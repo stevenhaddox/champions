@@ -368,6 +368,14 @@ export const EFFECT_STARS_AMOUNT = {
     [ EFFECT.THE_BRAVE_AND_THE_BOULDER ]: [ 10, 12, 15 ],
     [ EFFECT.PASSIVE_AGGRESSIVE ]: [ 10, 12, 15 ],
     [ EFFECT.ARACHNID_HUNTERS ]: [ 10, 12, 15 ],
+    [ EFFECT.ALPHA_FLIGHT_SPACE_STATION ]: [ 10, 12, 15 ],
+    [ EFFECT.GAMMA_MUTATES ]: [ 10, 12, 15 ],
+    [ EFFECT.EXTREME_MEASURES ]: [ 10, 12, 15 ],
+    [ EFFECT.HELL_AND_BACK ]: [ 10, 12, 15 ],
+    [ EFFECT.FAIREST_OF_THEM_ALL ]: [ 10, 12, 15 ],
+    [ EFFECT.ABOMINABLE_COMRADE ]: [ 10, 12, 15 ],
+    [ EFFECT.IMMORTAL_RULERS ]: [ 10, 12, 15 ],
+    [ EFFECT.IMMORTAL_KINGS ]: [ 10, 12, 15 ],
 };
 export const EFFECT_STARS_INDEX = { 1: 0, 2: 0, 3: 1, 4: 2, 5: 2 };
 
@@ -740,6 +748,14 @@ const effects = [
     { uid: EFFECT.THE_BRAVE_AND_THE_BOULDER },
     { uid: EFFECT.PASSIVE_AGGRESSIVE },
     { uid: EFFECT.ARACHNID_HUNTERS },
+    { uid: EFFECT.ALPHA_FLIGHT_SPACE_STATION },
+    { uid: EFFECT.GAMMA_MUTATES },
+    { uid: EFFECT.EXTREME_MEASURES },
+    { uid: EFFECT.HELL_AND_BACK },
+    { uid: EFFECT.FAIREST_OF_THEM_ALL },
+    { uid: EFFECT.ABOMINABLE_COMRADE },
+    { uid: EFFECT.IMMORTAL_RULERS },
+    { uid: EFFECT.IMMORTAL_KINGS },
 ].map(({ uid }) => new Effect({
     uid,
     base: EFFECT_STARS_AMOUNT[ uid ][ 0 ],
@@ -1101,7 +1117,7 @@ const effectIcons = {
     [ EFFECT.SYMBIOTE_CONSCIOUSNESS ]: 'effect-critical-damage',
     [ EFFECT.COSMIC_BANE_OF_EVIL ]: 'effect-phalanx-feud',
     [ EFFECT.COSMIC_JUSTICE_ON_WHEELS ]: 'effect-armor-break',
-    [ EFFECT.PUNISHMENTS_OF_INFINITE_VARIETY ]: 'effect-time',
+    [ EFFECT.PUNISHMENTS_OF_INFINITE_VARIETY ]: 'effect-critical-damage',
     [ EFFECT.SPIRITS_OF_VENGEANCE ]: 'effect-attack',
     [ EFFECT.FASTBALL_SPECIAL ]: 'effect-unstoppable',
     [ EFFECT.FEEL_CYTORAKS_EMBRACE ]: 'effect-overcoming-fear',
@@ -1115,6 +1131,14 @@ const effectIcons = {
     [ EFFECT.THE_BRAVE_AND_THE_BOULDER ]: 'effect-attack',
     [ EFFECT.PASSIVE_AGGRESSIVE ]: 'effect-elemental-hide',
     [ EFFECT.ARACHNID_HUNTERS ]: 'effect-seething-hatred',
+    [ EFFECT.ALPHA_FLIGHT_SPACE_STATION ]: 'effect-chronal-anchor',
+    [ EFFECT.GAMMA_MUTATES ]: 'effect-health',
+    [ EFFECT.EXTREME_MEASURES ]: 'effect-stun',
+    [ EFFECT.HELL_AND_BACK ]: 'effect-particle-physics',
+    [ EFFECT.FAIREST_OF_THEM_ALL ]: 'effect-worthy-opponent',
+    [ EFFECT.ABOMINABLE_COMRADE ]: 'effect-poison',
+    [ EFFECT.IMMORTAL_RULERS ]: 'effect-xassassins',
+    [ EFFECT.IMMORTAL_KINGS ]: 'effect-giant-challengers',
 };
 
 function effectIcon(uid) {

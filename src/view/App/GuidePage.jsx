@@ -42,7 +42,7 @@ const GuideSynergy ={
             router.setRoute(`/guide/${ championId }`);
             requestRedraw();
         };
-        const champion = championMap[ `${ championId }-2` ] || championMap[ `${ championId }-3` ] || championMap[ `${ championId }-4` ] || championMap[ `${ championId }-5` ];
+        const champion = championMap[ `${ championId }-2` ] || championMap[ `${ championId }-3` ] || championMap[ `${ championId }-4` ] || championMap[ `${ championId }-5` ] || championMap[ `${ championId }-6` ];
         const typeId = champion && champion.attr.typeId;
         const name = lang.string(`champion-${ championId }-shortname`, null) || lang.string(`champion-${ championId }-name`);
 

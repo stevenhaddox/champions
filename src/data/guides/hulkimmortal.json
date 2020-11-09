@@ -1,0 +1,32 @@
+{
+    "description": "The Incredible Hulk is dead, but resurrected in his stead is a monster much more frightening. In the day, he is a lifeless shell of what used to be Bruce Banner but the night is his time. The Immortal Hulk has overpowered the other Hulks, becoming dominant. Now in complete control, even the Gods fear this green demon of the dark.",
+    "gameplay": {
+        "description": "GAMMA MUTATE – ALWAYS ACTIVE \n- An enhanced immune system provides full immunity to the Poisons of the Battlerealm.\n- Hulk’s Regeneration Rate cannot be decreased or increased by outside sources.\n- Gain up to 2459 Attack Rating based on how much health Hulk has lost during the entire fight. This ability is based on 200% of Hulk’s Health.\n\n\nRAGE – MAX 25 STACKS\n- Hulk’s Medium Attacks, the first hit of his Special 1 Attack and the first and last hits of his Special 2 Attack apply a RAGE stack.\n- Consecutive RAGE Attacks build up RAGE stacks. All RAGE stacks are lost after 1.5 second(s) without performing a RAGE Attack. RAGE stacks do not expire during Hulk’s Special Attacks.\n\n\nRAGE ATTACKS\n- Deal a burst of 295.08 Physical Damage for each RAGE stack.\n- Deal a burst of 429.82 Direct Damage to Hulk for each RAGE stack except when using the Medium 1 Attack. Hulk cannot be knocked out by this ability.\n- If the Recoil Mastery is active, the Recoil Damage is disabled and deals a burst of 859.64 Direct Damage to Hulk for each Rank instead. Hulk cannot be knocked out by this ability.\n\n\nPERSISTENT GAMMA RADIATION – MAX 100%\n- Gamma Radiation’s maximum strength is equal to 100% of Hulk’s Max Health, and scales with boosts and buffs.\n- 60% of all damage dealt to Hulk while afflicted with a Degeneration Effect is stored as Gamma Radiation.\n- 100% of all self-inflicted Damage is stored as Gamma Radiation.\n- 20% of all Damage dealt to Hulk when struck is stored as Gamma Radiation.\n\n\nIMMORTALITY\n- When receiving damage that would knock out Hulk, consume 15% of Max Health as Gamma Radiation and gain an Immortality Passive, preventing death and becoming Unblockable for 8 second(s). This ability has a 50 second cooldown.\n- While active, any damage prevented by Immortality consumes an equal amount of Gamma Radiation instead. This does not apply to self-inflicted Damage.\n- When Immortality expires, consume all Gamma Radiation. Become Invulnerable and gain a Regeneration Passive, recovering 4298.2 Health plus all Gamma Radiation as Health over 1 second(s)."
+    },
+    "attack": {
+        "heavy": "The first hit refreshes the RAGE timer and doubles the amount of RAGE stacks. The last hit gains 983.6 Attack Rating for each RAGE stack.",
+        "note": "Try landing the first hit of Hulk’s Heavy Attack and comboing into a Special 1 or Special 2 Attack for maximum RAGE stacks."
+    },
+    "specials": {
+        "1": {
+            "description": "RAMPAGE\n- 60% chance to inflict a Stun Debuff lasting 1.75 seconds on the last hit."
+        },
+        "2": {
+            "description": "SHOULDER BASH\n- 100% chance to inflict a Stun Debuff lasting 3 seconds on the last hit.\n- Inflict a Suppression Debuff for each RAGE stack, reducing Defensive Power Rate by 5% for 15 second(s). Max 14 stack(s).",
+            "note": "Hulk’s most effective damage starts off with Special 2, using the long Stun, he can chain this attack with his Special 1 and wrack up a huge amount of RAGE stacks."
+        },
+        "3": {
+            "description": "DEVIL INCARNATE\n- Add a flat 10% strength to Gamma Radiation.\n- Inflict a Petrify Debuff, lowering Regeneration and Ability Power Rate by up to 25% for 20 second(s).",
+            "note": "The Special 3 Attack is the only time Hulk can net positive on his Gamma Radiation, a great ability to use while waiting for Immortality’s cooldown to expire."
+        }
+    },
+    "signature": {
+        "description": "The Green Door\n- Hulk surges with gamma energy from the Below-Place, gaining benefits while above certain thresholds of Gamma Radiation:\n- 25%: Basic Attacks have a 5% chance to inflict a Stun Debuff, lasting 0.75 second(s).\n- 50%: When the Opponent is Immune to a Stun Effect or a Stun Effect expires, inflict a Weakness Debuff, decreasing Attack Rating by 45% for 4 second(s).\n- 75%: Inflict an indefinite Petrify Debuff, lowering Regeneration and Ability Power Rate by 75%.",
+        "note": "Once Hulk reaches 25% Gamma Radiation, he can use his additional chance to Stun on Basic Attacks as an opening for increasing his RAGE stacks."
+    },
+    "author": {
+        "name": "Kabam",
+        "type": "spotlight",
+        "profile": "https://playcontestofchampions.com/champion-spotlight-hulk-immortal/"
+    }
+}

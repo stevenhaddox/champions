@@ -1,0 +1,28 @@
+{
+    "description": "In an attempt to study gamma mutation and weaponize it, leader of the U.S. Hulk Operations program “General Reginald Fortean” teleported aboard Gamma Flight’s orbital base with the goal of taking back the husk of Abomination’s body. In a moment of curiosity Fortean touched the Abomination’s remains, quickly becoming engulfed by the husk and transforming into a ruthless new Abomination tied to a mystical force known as the “One Below All”.",
+    "gameplay": {
+        "description": "Passive:  \n- Take 100% less damage from Poison effects and the recovery reduction from Poison is 50% less effective.\n\n\nCorrosive Poisons:\n- Contact with the Opponent has a 15% chance to inflict them with a Poison Debuff, dealing 2253.35 Direct Damage over 25 seconds and reducing health recovery by 30%.\n- If the Opponent reaches 10 Poison Debuffs they are converted into an Acid Burn Passive dealing 14580.5 Direct Damage over 5 seconds.\n- While Acid Burn is active, the Opponent is inflicted with an indefinite non-stacking Poison Debuff dealing 0 damage and reducing health recovery by 30%. While this is active, no additional personal Poison effects can be inflicted onto the Opponent.\n- When striking an Opponent suffering from Acid Burn, all attacks are Unblockable and deal a burst of 1590.6 Physical Damage.\n- When triggering Acid Burn, Abomination inflicts a Petrify Debuff for 5 seconds reducing Regeneration and Ability Power Rate by 60%.\n\n\nSelf Inflicted Poisons – Max 10:\n- Every 10th Basic Attack landed by either Champion inflicts Abomination with an indefinite Poison Debuff dealing 0 damage.\n- Each Poison on Abomination grants 182.61 Physical Resistance.\n- While Abomination is Poisoned, each time he Blocks an attack the Opponent is inflicted with a Weakness Debuff, reducing Attack Rating by 30% for 2 seconds."
+    },
+    "specials": {
+        "1": {
+            "description": "Toxic Roll\n- On Activation, inflict a non-stacking Petrify Debuff for 25 seconds reducing Regeneration and Ability Power Rate by 20%.\n- Abomination inflicts himself with +4 Poisons during this Attack. This is increased to +6 if his Toxic Aura is active.",
+            "note": "Although this Petrify will not stack with itself multiple times, Abomination can stack this with his Petrify from Acid burn, allowing him to significantly reduce or even invert the Opponent’s Regeneration and Ability Power Rate."
+        },
+        "2": {
+            "description": "Corrosive Spray\n- Activate Toxic Aura for 10 seconds. While active, consume 1 Poison Debuff on Abomination every 2 second(s) to keep the Aura paused. Consumption is paused during the Opponent’s Special Attacks.\n- During Toxic Aura standing near the Opponent inflicts 1 Poison Debuff every second, dealing 2253.35 Direct Damage over 10 seconds and reducing health recovery by 30%.\n- Each stack of Toxic Aura beyond the first increases the speed that it inflicts Poison by 25%. The Toxic Aura can stack up to 4.",
+            "note": "Abomination’s core loop is stacking multiple Toxic Auras to inflict Acid Burn at quicker and quicker rates, causing massive damage to the Opponent. Start with SP2 to activate the Aura, then SP1 to fuel it with Poison while building to stack more SP2 Auras."
+        },
+        "3": {
+            "description": "Acidic Feast\n- Inflicts Acid Burn, dealing 14580.5 Direct Damage over 5 seconds. Each stack in the Toxic Aura inflicts 1 additional Acid Burn effect.\n- Until the next time the Toxic Aura expires it becomes enhanced, increasing the time it takes to consume a Poison by 0.5 second(s). This enhancement cannot stack but can be activated even while the Toxic Aura isn’t yet active.",
+            "note": "This is a great attack to use in a longer fight to extend Abominations SP2 uptime since it increases the time required to consume a Poison. However it can also deal insane damage if used while multiple SP2 Auras have been stacked."
+        }
+    },
+    "signature": {
+        "description": "Toxic Husk\n- Self inflicted Poison stack limit is increased to 12 and Abomination self inflicts 3 Poisons at the start of each fight.\n- Poison, Petrify, and Acid Burn effects last +30% longer."
+    },
+    "author": {
+        "name": "Kabam",
+        "type": "spotlight",
+        "profile": "https://playcontestofchampions.com/champion-spotlight-abomination-immortal/"
+    }
+}
